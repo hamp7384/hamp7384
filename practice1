@@ -8,16 +8,16 @@ int main(void)
     float z;
     
     printf("첫번째 숫자를 입력하시오: \n");
-    scanf("%d", &x);
+    scanf("%f", &x);
     
     printf("두번째 숫자를 입력하시오: \n");
-    scanf("%d", &y);
+    scanf("%f", &y);
     
     printf("세번째 숫자를 입력하시오: \n");
-    scanf("%d", &z);
+    scanf("%f", &z);
     
     tlr = (3 * X +2 * Y) / Z;
-    printf("(3x + 2y) / z: %d", tlr);
+    printf("(3x + 2y) / z: %f", tlr);
     
     return 0;
 }
