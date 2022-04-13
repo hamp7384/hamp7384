@@ -1,0 +1,23 @@
+#define CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+    float x;
+    float y;
+    float z;
+    
+    printf("첫번째 숫자를 입력하시오: \n");
+    scanf("%d", &x);
+    
+    printf("두번째 숫자를 입력하시오: \n");
+    scanf("%d", &y);
+    
+    printf("세번째 숫자를 입력하시오: \n");
+    scanf("%d", &z);
+    
+    tlr = (3 * X +2 * Y) / Z;
+    printf("(3x + 2y) / z: %d", tlr);
+    
+    return 0;
+}
